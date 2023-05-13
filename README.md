@@ -68,6 +68,9 @@ ENDPOINTS PARA TESTE ( PODE SER UTILIZADO PARA TESTE O APLICATIVO POSTMAN):
 
 /lists/{id}/games   (lista um game especifico de uma lista especifica de tipo de game)
 
+/lists/{id}/replacement  body{"sourceIndex":, "destinationIndex":}   ( modifica a posição especifica de um game na lista especifica {JSON})
+
+
 
 FOI REALIZADO O SEED PARA O BANCO DE DADOS COM A QUANTIDADE DE 10 JOGOS DIVIDIDOS EM UMA LISTA COM 2 GENEROS DE JOGOS.
 
