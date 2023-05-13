@@ -12,6 +12,8 @@ PROJETO DESENVOLVIDO EM ESTUDO SOBRE UM API REST QUE FORNECE:
 
 4- MODIFICAÇÃO DA POSIÇÃO DE UM JOGO EM UMA LISTA ESPECIFICA;
 
+----------------------------------------------
+
 FORAM UTILIZADOS NESTE PROJETO, CONHECIMENTOS ESPECÍFICOS SOBRE AS SEGUINTES PLATAFORMAS:
 
 LINGUAGEM JAVA
@@ -27,6 +29,8 @@ DOCKER
 IMPLEMENTAÇÃO EM NUVEM COM O SERVICE RAILWAY
 
 GIT/GITHUB
+
+----------------------------------------------
 
 FORAM UTILIZADOS NESTE PROJETO OS CONCEITOS:
 
@@ -54,9 +58,13 @@ DESIGN E IMPLEMENTAÇÃO DE ENDPOINTS,
 
 VERBOS HTTP.
 
+----------------------------------------
+
 ENDEREÇO DA IMPLEMENTAÇÃO NO RAILWAY:
 
 projetolistagamesjavaspring-production.up.railway.app
+
+----------------------------------------
 
 ENDPOINTS PARA TESTE ( PODE SER UTILIZADO PARA TESTE O APLICATIVO POSTMAN):
 
@@ -70,7 +78,7 @@ ENDPOINTS PARA TESTE ( PODE SER UTILIZADO PARA TESTE O APLICATIVO POSTMAN):
 
 /lists/{id}/replacement  body{"sourceIndex":, "destinationIndex":}   ( modifica a posição especifica de um game na lista especifica {JSON})
 
-
+---------------------------------------------
 
 FOI REALIZADO O SEED PARA O BANCO DE DADOS COM A QUANTIDADE DE 10 JOGOS DIVIDIDOS EM UMA LISTA COM 2 GENEROS DE JOGOS.
 
