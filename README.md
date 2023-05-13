@@ -40,8 +40,11 @@ projetolistagamesjavaspring-production.up.railway.app
 ENDPOINTS PARA TESTE:
 
 /games     (listagem dos jogos)
+
 /games/{id}    (listagem de um jogo especifico)
+
 /lists   (listagem de uma lista especifica de tipo de game)
+
 /lists/{id}/games   (lista um game especifico de uma lista especifica de tipo de game)
 
 
