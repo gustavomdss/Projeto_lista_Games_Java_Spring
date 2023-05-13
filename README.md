@@ -37,7 +37,7 @@ ENDEREÇO DA IMPLEMENTAÇÃO NO RAILWAY:
 
 projetolistagamesjavaspring-production.up.railway.app
 
-ENDPOINTS PARA TESTE:
+ENDPOINTS PARA TESTE ( PODE SER UTILIZADO PARA TESTE O APLICATIVO POSTMAN):
 
 /games     (listagem dos jogos)
 
