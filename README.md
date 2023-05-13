@@ -68,15 +68,15 @@ projetolistagamesjavaspring-production.up.railway.app
 
 ENDPOINTS PARA TESTE ( PODE SER UTILIZADO PARA TESTE O APLICATIVO POSTMAN):
 
-/games     (listagem dos jogos)
+GET /games     (listagem dos jogos)
 
-/games/{id}    (listagem de um jogo especifico)
+GET /games/{id}    (listagem de um jogo especifico)
 
-/lists   (listagem de uma lista especifica de tipo de game)
+GET /lists   (listagem de uma lista especifica de tipo de game)
 
-/lists/{id}/games   (lista um game especifico de uma lista especifica de tipo de game)
+GET /lists/{id}/games   (lista um game especifico de uma lista especifica de tipo de game)
 
-/lists/{id}/replacement  body{"sourceIndex":, "destinationIndex":}   ( modifica a posição especifica de um game na lista especifica {JSON})
+POST /lists/{id}/replacement  body{"sourceIndex":, "destinationIndex":}   ( modifica a posição especifica de um game na lista especifica {JSON})
 
 ---------------------------------------------
 
